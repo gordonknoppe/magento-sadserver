@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Gk_Sadserver>
-            <codeVersion>0.1.0-dev</codeVersion>
+            <codeVersion>0.1.0</codeVersion>
         </Gk_Sadserver>
     </modules>
     <global>
