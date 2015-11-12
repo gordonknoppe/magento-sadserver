@@ -1,0 +1,15 @@
+{
+    "name": "gk/sadserver",
+    "type": "magento-module",
+    "license": "Apache-2.0",
+    "description": "@sadserver: All error messages have been replaced with \"¯\\_(ツ)_/¯\" since you don't bother to read them anyways",
+    "authors": [
+        {
+            "name": "Gordon Knoppe",
+            "email": "gordon@knoppe.net"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

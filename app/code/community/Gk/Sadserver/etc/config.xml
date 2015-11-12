@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gk_Sadserver>
+            <codeVersion>0.1.0-dev</codeVersion>
+        </Gk_Sadserver>
+    </modules>
+    <global>
+        <models>
+            <gk_sadserver>
+                <class>Gk_Sadserver_Model</class>
+            </gk_sadserver>
+        </models>
+        <helpers>
+            <gk_sadserver>
+                <class>Gk_Sadserver_Helper</class>
+            </gk_sadserver>
+        </helpers>
+        <log>
+            <core>
+                <writer_model>Gk_Sadserver_Model_Writer</writer_model>
+            </core>
+        </log>
+    </global>
+    <default>
+        <dev>
+            <log>
+                <active>1</active>
+            </log>
+        </dev>
+    </default>
+</config>
